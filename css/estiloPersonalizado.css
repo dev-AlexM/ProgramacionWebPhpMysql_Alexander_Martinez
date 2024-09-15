@@ -1,0 +1,155 @@
+/* Para el titulo principal */
+
+.tituloPrincipal {
+    background: linear-gradient(to right, #1499bb, #6b25db);
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tituloPrincipal h4 {
+    margin: 0;
+    font-size: 1.5em;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Para el nombre */
+
+h6.nombre {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+h6.nombre::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #007bff, #00d2ff);
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+/* Estilo personalizado para el botón 'toggleButton' */
+#toggleButton {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+#toggleButton::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #150a80, #00e1ff);
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+#toggleButton:hover {
+    background-color: #e0e0e0;
+}
+
+/* Estilo personalizado para el contenedor del botón 'botonField' */
+.botonField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Estilo personalizado para el botón 'submitButton' */
+#submitButton {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #8e2de2;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 2px solid #8e2de2;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    line-height: 1.5;
+    outline: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilo cuando el cursor pasa sobre el botón */
+#submitButton:hover {
+    background-color: #8e2de2;
+    color: #18131b;
+    border-color: #6a1b9a;
+}
+
+/* ------------------------------------------- */
+
+/* Estilo para el contenedor del título 'tituloFiltros' */
+.tituloFiltros {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tituloFiltros h5 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Para el GIF */
+.gifContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gifContainer .card {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+}
+
+.gifContainer iframe {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
